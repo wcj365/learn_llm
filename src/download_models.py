@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-save_directory = "../models"
+save_directory = "../.hf_models"
 
 # Load from Hugging Face Hub
 tokenizer = AutoTokenizer.from_pretrained(model_name)

@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
 import torch
 
 # Replace with the path to your local model directory
-local_model_path = "../models"
+local_model_path = "../.hf_models"
 
 # Load the tokenizer and model from the local path
 tokenizer = AutoTokenizer.from_pretrained(local_model_path)
